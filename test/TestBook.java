@@ -2,12 +2,12 @@ import java.util.*;
 import java.io.*;
 
 public class TestBook {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         File file = new File("Book_List.txt");
         List<Book> bookList = new ArrayList<>();
         Scanner input = new Scanner(file);
 
-        // Reading the file with hasNext() to avoid NoSuchElementException
+        // Reading the file with hasNext()
         while (input.hasNext()) {
             Book book = new Book();
             book.setAuthor(input.nextLine());
@@ -46,7 +46,7 @@ public class TestBook {
                 if (userInt < 0 || userInt >= bookList.size()) {
                     throw new ArrayIndexOutOfBoundsException();
                 }
-                Book selectedBook = bookList.get(userInt);  // Use .get() to access ArrayList elements
+                Book selectedBook = bookList.get(userInt);
                 System.out.println("Item ID: " + selectedBook.getItemId() + ":");
                 System.out.println("Title: " + selectedBook.getTitle());
                 System.out.println("Author: " + selectedBook.getAuthor());
