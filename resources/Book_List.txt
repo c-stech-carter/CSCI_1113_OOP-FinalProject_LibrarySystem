@@ -1,0 +1,71 @@
+Frank Herbert
+Dune
+1965
+1
+false
+
+Frank Herbert
+Dune Messiah
+1969
+2
+false
+
+Frank Herbert
+Children of Dune
+1976
+3
+false
+
+Frank Herbert
+God Emperor of Dune
+1981
+4
+false
+
+Frank Herbert
+Heretics of Dune
+1984
+5
+false
+
+Frank Herbert
+Chapterhouse: Dune
+1985
+6
+false
+
+China Mieville
+Perdido Street Station
+2000
+7
+false
+
+China Mieville
+The Scar
+2002
+8
+false
+
+China Mieville
+Iron Council
+2004
+9
+false
+
+Brandon Sanderson
+The Final Empire
+2006
+10
+false
+
+Brandon Sanderson
+The Well of Ascension
+2007
+11
+false
+
+Brandon Sanderson
+The Hero of Ages
+2008
+12
+false
