@@ -84,6 +84,6 @@ P2
 ```
 
 ## Limitations
-1. The program does not save changes to the Book_List.txt and Patron_List.txt files.   Future functionality could be implemented to update the files when changes are made.
+1. Due to time limitations to finishing the program, it does not save changes to the Book_List.txt and Patron_List.txt files.   Future functionality could be implemented to update the files when changes are made.
 2. Only three slots are available for checkout.
 3. The program handles basic exceptions but does not handle all edge cases.
