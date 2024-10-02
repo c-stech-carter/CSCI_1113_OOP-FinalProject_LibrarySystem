@@ -26,7 +26,7 @@ public class Main {
      */
     public static void main(String[] args) throws FileNotFoundException {
         // Load the list of books from Book_List.txt
-        File bookFile = new File("Book_List.txt");
+        File bookFile = new File("resources//Book_List.txt");
         List<Book> bookList = new ArrayList<>();
         Scanner input = new Scanner(bookFile);
 
@@ -49,7 +49,7 @@ public class Main {
         input.close();
 
         // Load the list of patrons from Patron_List.txt
-        File patronFile = new File("Patron_List.txt");
+        File patronFile = new File("resources//Patron_List.txt");
         List<Patron> patronList = new ArrayList<>();
         input = new Scanner(patronFile);
 
